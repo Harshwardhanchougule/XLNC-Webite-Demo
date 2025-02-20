@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Menu, X, CheckCircle, Phone, Mail, MapPin, ArrowRight, Globe, Shield, Cpu, Code, Users, Award, ChevronRight, Sun, Moon } from 'lucide-react';
+import { Menu, X, Phone, Mail, MapPin, Globe, Shield, Cpu, Code, Award, ChevronRight, Sun, Moon } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -68,6 +68,7 @@ function App() {
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">Home</a>
               <a href="#services" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">Services</a>
+              <a href="#services" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">Product</a>
               <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">About</a>
               <a href="#technologies" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">Technologies</a>
               <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">Contact</a>
@@ -118,7 +119,7 @@ function App() {
         </div>
         
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
-          <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 dark:text-white sm:text-7xl">
+          <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 dark:text-white sm:text-5xl">
           INDUSTRIES WE SERVE          
             <span className="relative whitespace-nowrap text-indigo-600 dark:text-indigo-400">
               {/* <span className="relative">Through Technology</span> */}
