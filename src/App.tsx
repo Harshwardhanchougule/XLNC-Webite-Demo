@@ -119,13 +119,13 @@ function App() {
         
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
           <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 dark:text-white sm:text-7xl">
-            Transforming Business
+          INDUSTRIES WE SERVE          
             <span className="relative whitespace-nowrap text-indigo-600 dark:text-indigo-400">
-              <span className="relative">Through Technology</span>
+              {/* <span className="relative">Through Technology</span> */}
             </span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700 dark:text-slate-300">
-            We deliver cutting-edge technology solutions that drive innovation, efficiency, and growth for businesses worldwide.
+          We believe in delivering intelligent automations and innovative solutions within the framework of industry best-practices for our customers. Integrity is practiced with conviction to deliver ethical interactions and transparency with our customer engagements.
           </p>
           <div className="mt-10 flex justify-center gap-x-6">
             <a href="#contact" className="group inline-flex items-center justify-center rounded-full py-3 px-6 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-indigo-600 text-white hover:bg-indigo-700 active:bg-indigo-800 active:text-white/80 focus-visible:outline-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-600">
@@ -133,6 +133,10 @@ function App() {
               <ChevronRight className="ml-2 h-4 w-4" />
             </a>
           </div>
+          <p className="mx-auto mt-6 max-w-3xl text-lg tracking-tight text-slate-700 dark:text-slate-300">
+          INNOVATE !  AUTOMATE !  ACCELERATE ! <br/>
+          We believe in delivering intelligent automations and innovative solutions within the framework of industry best-practices for our customers. Integrity is practiced with conviction to deliver ethical interactions and transparency with our customer engagements.
+          </p>
         </div>
       </div>
 
